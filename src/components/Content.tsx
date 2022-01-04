@@ -1,6 +1,8 @@
 import { MovieProps } from "../App";
 import { MovieCard } from "./MovieCard";
 
+import "../styles/content.scss";
+
 type ContentProps = {
   title: string;
   movies: MovieProps[];
