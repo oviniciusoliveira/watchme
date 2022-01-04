@@ -2,6 +2,7 @@ import { MovieProps } from "../App";
 import { MovieCard } from "./MovieCard";
 
 import "../styles/content.scss";
+import { Header } from "./Header";
 
 type ContentProps = {
   title: string;
@@ -11,11 +12,7 @@ type ContentProps = {
 export function Content({ title, movies }: ContentProps) {
   return (
     <div className="container">
-      <header>
-        <span className="category">
-          Categoria:<span> {title}</span>
-        </span>
-      </header>
+      <Header title={title} />
 
       <main>
         <div className="movies-list">
