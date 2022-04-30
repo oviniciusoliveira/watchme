@@ -1,5 +1,5 @@
 # WatchMe
 
 ## TODO
-- [ ] Melhorar performance
+- [x] Melhorar performance
 - [ ] Tornar responsivo
